@@ -1,1 +1,42 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing:border-box;
+}
 
+header, footer{
+    background-color: #d1f3e8;
+    text-align: center;
+}
+header{
+    margin-bottom: 20px;
+    padding: 20px;
+    border-bottom:2px solid #000;
+}
+footer{
+    margin-top: 24px;
+    border-top:2px solid #000;
+}
+
+.intro{
+    text-align: center;
+}
+
+.cards-container{
+    margin: 10px;
+}
+
+article{
+    text-align: center;
+    width: 100%;
+    margin-bottom: 16px;
+}
+
+@media (min-width: 768px){
+    article{
+        display: inline-block;
+        width: 30%;
+        margin-right: 3%;
+        vertical-align: top;
+    }
+}
